@@ -37,7 +37,7 @@ const StopWatch = () => {
   return (
     <div>
       <h1>Stopwatch</h1>
-      <h4>Time:{formatTime(time)}</h4>
+      <h4>Time: {formatTime(time)}</h4>
       <div>
         <button onClick={handleStartStop}>
           {isActive && !isStop ? "Stop" : "Start"}
